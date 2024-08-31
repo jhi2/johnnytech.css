@@ -1,0 +1,10 @@
+:root {
+    /*colors*/
+  --danger: #ff0000;  /* A bold red for danger/error/no states */
+  --warning: #ee5c08; /* A striking orange for warnings */
+  --info: #fffb00;    /* A bright yellow for information highlights */
+  --primary: #2716b9; /* A deep blue for primary elements */
+  --yes: #079e07;     /* A rich green for positive actions or success states */
+  --bgcolor: #ffffff;  /* A pure white or dark grey for background color */
+  
+}

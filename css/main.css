@@ -1,0 +1,6 @@
+@import 'button.css';
+@import 'vars.css';
+
+.color-mode-dark{
+    --background-color:rgb(18,18,18);
+}
