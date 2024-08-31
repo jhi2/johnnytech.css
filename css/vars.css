@@ -5,6 +5,15 @@
   --info: #fffb00;    /* A bright yellow for information highlights */
   --primary: #2716b9; /* A deep blue for primary elements */
   --yes: #079e07;     /* A rich green for positive actions or success states */
-  --bgcolor: #ffffff;  /* A pure white or dark grey for background color */
+  --bgcolor: #ffffff;  /* A pure white or dark grey for background color : Default is white*/
+  /*INTERNAL COLORS -- NOT TO CHANGE*/
+  --element_color: #000000;
   
 }
+
+/* Color classes */
+.color-danger { background-color: var(--danger); }
+.color-warning { background-color: var(--warning); }
+.color-info { background-color: var(--info); }
+.color-primary { background-color: var(--primary); }
+.color-yes { background-color: var(--yes); }

@@ -1,0 +1,8 @@
+/*https://orangeable.com/css/fade-in*/
+.fade-in {
+	transition: all 0.5s;
+}
+
+.fade-in {
+	opacity: 1.00;
+}

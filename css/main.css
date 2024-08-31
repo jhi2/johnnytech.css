@@ -1,6 +1,18 @@
 @import 'button.css';
 @import 'vars.css';
 
-.color-mode-dark{
+.bg-color-mode-dark{
     --background-color:rgb(18,18,18);
+    --element-color:#ffffff
+}
+.bg-color-mode-light{
+    --background-color:rgb(252, 252, 252);
+    --element-color:rgb(18, 18, 18);
+}
+body{
+    background-color:var(--background-color);
+    color:var(--element-color);
+}
+.color-primary{
+    color:var(--primary)
 }
