@@ -1,0 +1,36 @@
+/*For links and link tooltips:
+https://sl.bing.net/dy3KttAQpeC,
+https://sl.bing.net/bQ4S75hBv7Q*/
+@import 'vars.css';
+:root {
+    --link-url: '';
+}
+
+a,.link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid var(--element-color);
+
+.tt-link::after {
+    content: var(--link-url); /* Set the tooltip text here */
+    visibility: hidden;
+    width: 120px;
+    background-color: var(--element-color);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position the tooltip above the text */
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tt-link:hover::after {
+    visibility: visible;
+    opacity: 1;
+}

@@ -1,6 +1,9 @@
+/*Imports*/
 @import 'button.css';
 @import 'vars.css';
-
+@import 'link.css';
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+/*Classes for main*/
 .bg-color-mode-dark{
     --background-color:rgb(18,18,18);
     --element-color:#ffffff
@@ -12,7 +15,13 @@
 body{
     background-color:var(--background-color);
     color:var(--element-color);
+    font-family: "SUSE",sans-serif;
+}/*Elements*/
+
+.color-primary {
+    color: var(--primary);
 }
-.color-primary{
-    color:var(--primary)
-}
+
+
+
+
